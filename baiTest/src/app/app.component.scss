@@ -1,0 +1,40 @@
+.sidebar {
+    background-color: #191718;
+    width: 150px;
+    height: 935px;
+}
+
+.sidebar .nav-link {
+    color: #fff;
+}
+
+.sidebar .nav-link.active {
+    background-color: #5C5C5C;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF !important;
+
+    .contenFirst {
+        width: 1510px;
+        height: 210px;
+        background: #EFEFEF;
+
+        .img {
+            width: 310px;
+            height: 122px;
+        }
+
+        .description {
+            height: 95px;
+            width: 972px;
+            left: 548px;
+            top: 1187px;
+            border-radius: nullpx;
+        }
+    }
+
+}
